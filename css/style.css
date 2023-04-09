@@ -1,0 +1,311 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Cormorant Upright', serif;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0C0B08;
+    color: white;
+    padding: 45px 100px 30px;
+}
+
+.logo_name {
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 44px;
+}
+
+.header_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.header_center p {
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.header_right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.header_right p {
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.header_right img {
+    width: 1px;
+    height: 57px;
+}
+
+
+
+
+
+.st1 {
+    width: 100%;
+    padding: 100px;
+    background-color: #0C0B08;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    position: relative;
+}
+
+.st1_left {
+    text-align: left;
+}
+
+
+.st1_p {
+    font-weight: 700;
+    font-size: 23px;
+    color: white;
+}
+
+.st1_left img {
+    width: 50px;
+    padding: 8px 0;
+}
+
+.st1_left h1 {
+    font-weight: 700;
+    font-size: 90px;
+    color: #DCCA87;
+}
+
+.st1_p1 {
+    color: #aaaaaa;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 32px 0;
+}
+
+.st1_left button {
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    background-color: #DCCA87;
+    color: #0C0B08;
+    border: none;
+}
+
+.deg90 {
+    position: absolute;
+    top: 440px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    transform: rotate(270deg);
+}
+
+.deg90 p {
+    font-weight: 400;
+    font-size: 18px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.st1_right img {
+    width: 667px;
+    height: 736px;
+}
+
+.st1_right_box {
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.st1_right_box p {
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.st1_right_box img {
+    width: 61px;
+    height: 113px;
+}
+
+
+
+
+.st2 {
+    background-image: url(../img/st2_bg.png);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 120px 100px;
+    position: relative;
+    z-index: 1;
+}
+
+.st2_abs {
+    position: absolute;
+    width: 390px;
+    z-index: 2;
+}
+
+.st2_left {
+    z-index: 3;
+    text-align: right;
+}
+
+.st2_left h2 {
+    color: #DCCA87;
+    font-weight: 600;
+    font-size: 64px;
+}
+
+.st2_left img {
+    width: 40px;
+    transform: rotate(180deg);
+}
+
+.st2_left p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #aaaaaa;
+    padding: 32px 0;
+}
+
+.st2_left button {
+    cursor: pointer;
+    width: 140px;
+    height: 40px;
+    background-color: #DCCA87;
+    color: #0C0B08;
+    border: none;
+}
+
+.st2_knife {
+    width: 84px;
+    z-index: 3;
+}
+
+.st2_right {
+    z-index: 3;
+    text-align: left;
+}
+
+.st2_right h2 {
+    color: #DCCA87;
+    font-weight: 600;
+    font-size: 64px;
+}
+
+.st2_right img {
+    width: 40px;
+}
+
+.st2_right p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #aaaaaa;
+    padding: 32px 0;
+}
+
+.st2_right button {
+    cursor: pointer;
+    width: 140px;
+    height: 40px;
+    background-color: #DCCA87;
+    color: #0C0B08;
+    border: none;
+}
+
+
+
+
+
+.st3 {
+    width: 100%;
+    background-color: #0C0B08;
+    padding: 100px 100px;
+    position: relative;
+}
+
+.st3_group85 {
+    width: 146px;
+    position: absolute;
+    top: 10px;
+    right: 80px;
+}
+
+.st3_block {
+    max-width: 1400px;
+    background-color: #0c0c0c;
+    border: 2px solid #3d3d3d;
+}
+
+.st3_block_box {
+    padding: 50px 0;
+}
+
+.st3_block_box p {
+    font-weight: 700;
+    font-size: 23px;
+    color: white;
+    padding: 0 0 8px;
+}
+
+.st3_block_box img {
+    width: 40px;
+}
+
+.st3_block_box h2 {
+    font-weight: 600;
+    font-size: 64px;
+    color: #DCCA87;
+    padding: 65px;
+}
+
+.st3_block_box2 select {
+    width: 400px;
+    height: 60px;
+    background-color: #0c0c0c;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0 10px;
+}
+
+.st3_block button {
+    cursor: pointer;
+    width: 130px;
+    height: 40px;
+    background-color: #DCCA87;
+    color: #0C0B08;
+    border: none;
+    margin: 65px 0;
+}
